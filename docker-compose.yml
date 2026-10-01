@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: hello-mirpur-admin
+    restart: always
+    ports:
+      - "3010:80"
