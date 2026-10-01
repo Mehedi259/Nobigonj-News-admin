@@ -9,7 +9,7 @@ const Sidebar = ({ activePage, onNavigate }) => {
       <div className="sidebar__header">
         <div className="sidebar__logo-icon">হে</div>
         <div className="sidebar__logo-text">
-          <h2>Hello Nabiganj</h2>
+          <h2>Hello Mirpur</h2>
           <p>অ্যাডমিন প্যানেল</p>
         </div>
       </div>

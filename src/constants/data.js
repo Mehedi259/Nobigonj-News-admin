@@ -32,7 +32,7 @@ export const VISITOR_CHART_DATA = [
 
 // Category distribution
 export const CATEGORY_CHART_DATA = [
-  { name: 'হ্যালো নবীগঞ্জ', value: 420, fill: '#4CAF50' },
+  { name: 'হ্যালো মিরপুর', value: 420, fill: '#4CAF50' },
   { name: 'জাতীয়', value: 280, fill: '#2196F3' },
   { name: 'বিনোদন', value: 190, fill: '#FF9800' },
   { name: 'খেলাধুলা', value: 175, fill: '#9C27B0' },
@@ -42,12 +42,12 @@ export const CATEGORY_CHART_DATA = [
 
 // Recent news for dashboard
 export const RECENT_NEWS = [
-  { id: 1, title: 'নবীগঞ্জে নতুন সড়ক প্রকল্পের কাজ শুরু', category: 'হ্যালো নবীগঞ্জ', status: 'published', author: 'মেহেদী হাসান', date: '18 Sep 2026', views: 1247 },
-  { id: 2, title: 'নবীগঞ্জে শিক্ষার মানোন্নয়ের উদ্যোগ', category: 'শিক্ষা', status: 'published', author: 'রাকিব হাসান', date: '17 Sep 2026', views: 842 },
-  { id: 3, title: 'কৃষকদের মুখে হাসি, ভালো ফলনের উৎপাদন', category: 'হ্যালো নবীগঞ্জ', status: 'draft', author: 'সাব্বির আহমেদ', date: '16 Sep 2026', views: 0 },
-  { id: 4, title: 'নবীগঞ্জে যুবসমাজের উদ্যোগে পরিচ্ছন্নতা অভিযান', category: 'হ্যালো নবীগঞ্জ', status: 'published', author: 'মেহেদী হাসান', date: '15 Sep 2026', views: 990 },
+  { id: 1, title: 'মিরপুরে নতুন সড়ক প্রকল্পের কাজ শুরু', category: 'হ্যালো মিরপুর', status: 'published', author: 'মেহেদী হাসান', date: '18 Sep 2026', views: 1247 },
+  { id: 2, title: 'মিরপুরে শিক্ষার মানোন্নয়ের উদ্যোগ', category: 'শিক্ষা', status: 'published', author: 'রাকিব হাসান', date: '17 Sep 2026', views: 842 },
+  { id: 3, title: 'কৃষকদের মুখে হাসি, ভালো ফলনের উৎপাদন', category: 'হ্যালো মিরপুর', status: 'draft', author: 'সাব্বির আহমেদ', date: '16 Sep 2026', views: 0 },
+  { id: 4, title: 'মিরপুরে যুবসমাজের উদ্যোগে পরিচ্ছন্নতা অভিযান', category: 'হ্যালো মিরপুর', status: 'published', author: 'মেহেদী হাসান', date: '15 Sep 2026', views: 990 },
   { id: 5, title: 'এশিয়া কাপের জন্য প্রস্তুতি নিচ্ছে বাংলাদেশ', category: 'খেলাধুলা', status: 'published', author: 'রাকিব হাসান', date: '14 Sep 2026', views: 1340 },
-  { id: 6, title: 'নবীগঞ্জে স্বায়ত্বশাসনের নতুন সম্ভাবনা', category: 'জাতীয়', status: 'review', author: 'সাব্বির আহমেদ', date: '13 Sep 2026', views: 0 },
+  { id: 6, title: 'মিরপুরে স্বায়ত্বশাসনের নতুন সম্ভাবনা', category: 'জাতীয়', status: 'review', author: 'সাব্বির আহমেদ', date: '13 Sep 2026', views: 0 },
 ];
 
 // Recent activities
@@ -61,10 +61,10 @@ export const RECENT_ACTIVITIES = [
 
 // All news for management
 export const ALL_NEWS = [
-  { id: 1, title: 'নবীগঞ্জে নতুন সড়ক প্রকল্পের কাজ শুরু', category: 'হ্যালো নবীগঞ্জ', status: 'published', author: 'মেহেদী হাসান', date: '18 Sep 2026', views: 1247, featured: true },
-  { id: 2, title: 'নবীগঞ্জে শিক্ষার মানোন্নয়ের উদ্যোগ', category: 'শিক্ষা', status: 'published', author: 'রাকিব হাসান', date: '17 Sep 2026', views: 842, featured: false },
-  { id: 3, title: 'কৃষকদের মুখে হাসি', category: 'হ্যালো নবীগঞ্জ', status: 'draft', author: 'সাব্বির আহমেদ', date: '16 Sep 2026', views: 0, featured: false },
-  { id: 4, title: 'পরিচ্ছন্নতা অভিযান', category: 'হ্যালো নবীগঞ্জ', status: 'published', author: 'মেহেদী হাসান', date: '15 Sep 2026', views: 990, featured: false },
+  { id: 1, title: 'মিরপুরে নতুন সড়ক প্রকল্পের কাজ শুরু', category: 'হ্যালো মিরপুর', status: 'published', author: 'মেহেদী হাসান', date: '18 Sep 2026', views: 1247, featured: true },
+  { id: 2, title: 'মিরপুরে শিক্ষার মানোন্নয়ের উদ্যোগ', category: 'শিক্ষা', status: 'published', author: 'রাকিব হাসান', date: '17 Sep 2026', views: 842, featured: false },
+  { id: 3, title: 'কৃষকদের মুখে হাসি', category: 'হ্যালো মিরপুর', status: 'draft', author: 'সাব্বির আহমেদ', date: '16 Sep 2026', views: 0, featured: false },
+  { id: 4, title: 'পরিচ্ছন্নতা অভিযান', category: 'হ্যালো মিরপুর', status: 'published', author: 'মেহেদী হাসান', date: '15 Sep 2026', views: 990, featured: false },
   { id: 5, title: 'এশিয়া কাপের প্রস্তুতি', category: 'খেলাধুলা', status: 'published', author: 'রাকিব হাসান', date: '14 Sep 2026', views: 1340, featured: true },
   { id: 6, title: 'স্বায়ত্বশাসনের নতুন সম্ভাবনা', category: 'জাতীয়', status: 'review', author: 'সাব্বির আহমেদ', date: '13 Sep 2026', views: 0, featured: false },
   { id: 7, title: 'উন্নয়নের গতি ত্বরান্বিত', category: 'জাতীয়', status: 'published', author: 'মেহেদী হাসান', date: '12 Sep 2026', views: 2100, featured: true },
